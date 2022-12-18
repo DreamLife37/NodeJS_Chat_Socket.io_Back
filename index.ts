@@ -1,8 +1,9 @@
 import cors from 'cors';
 import express from 'express';
 import http from 'http'
-import {ALLOWED_ORIGIN} from './config';
 import colors from 'colors'
+
+export const ALLOWED_ORIGIN = 'http://localhost:3000'
 
 const {Server} = require("socket.io");
 const app = express()

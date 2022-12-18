@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "name": "chat-socket.io-Back",
+  "name": "node-js-smtp-server",
   "builds": [
     {
-      "src": "src/App.js",
+      "src": "/index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "src/App.js"
+      "dest": "/index.js"
     }
   ]
 }
